@@ -2,7 +2,7 @@ import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
 class XylophonePlay extends StatefulWidget {
   @override
-  //arrow function use when have single line of return like this
+  //arrow function use when have single line of return code like this
   _XylophonePlayState createState() => _XylophonePlayState();
 }
 class _XylophonePlayState extends State<XylophonePlay> {
@@ -21,7 +21,7 @@ class _XylophonePlayState extends State<XylophonePlay> {
           keyPlay(color: Colors.blue,keyNumber: 1),
           keyPlay(color: Colors.greenAccent,keyNumber: 2),
           keyPlay(color: Colors.lightGreen,keyNumber: 3),
-          keyPlay(color: Colors.pinkAccent,keyNumber: 4),
+          keyPlay(color: Colors.indigoAccent,keyNumber: 4),
           keyPlay(color: Colors.purpleAccent,keyNumber: 5),
           keyPlay(color: Colors.redAccent,keyNumber: 6),
           keyPlay(color: Colors.amber,keyNumber: 7),
