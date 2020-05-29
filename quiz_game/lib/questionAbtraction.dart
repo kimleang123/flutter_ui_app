@@ -7,17 +7,17 @@ class QuestionAbtraction{
   // List<String> questions = [];
   //create a list type questions
   List<Question> questionDisplay = [
-    Question(s:'int x[] = new int[]{10,20,30};\nArrays can also be created and initialize as in above statement.', b: true),
-    Question(s:'In an instance method or a constructor, "this" is a reference to the current object.', b: true),
-    Question(s:'Garbage Collection is manual process.', b: false),
-    Question(s:'The JRE deletes objects when it determines that they are no longer being used. This process is called Garbage Collection.',b:true),
-    Question(s:'Constructor overloading is not possible in Java.',b: false ),
-    Question(s:'Assignment operator is evaluated Left to Right.',b:false),
-    Question(s:'All binary operators except for the assignment operators are evaluated from Left to Right',b: true),
-    Question(s:'Variable name can begin with a letter, "\$", or "_".',b: true),
-    Question(s:'Interfaces can be instantiated.',b: false),
-    Question(s:'The modifiers public and static cannot written in either order "public static" or "static public".',b: false),
-    Question(s:'James Gosling is father of Java?',b: true)
+    Question(textQuestion:'int x[] = new int[]{10,20,30};\nArrays can also be created and initialize as in above statement.', checkAnswer: true),
+    Question(textQuestion:'In an instance method or a constructor, "this" is a reference to the current object.', checkAnswer: true),
+    Question(textQuestion:'Garbage Collection is manual process.', checkAnswer: false),
+    Question(textQuestion:'The JRE deletes objects when it determines that they are no longer being used. This process is called Garbage Collection.',checkAnswer:true),
+    Question(textQuestion:'Constructor overloading is not possible in Java.',checkAnswer: false ),
+    Question(textQuestion:'Assignment operator is evaluated Left to Right.',checkAnswer:false),
+    Question(textQuestion:'All binary operators except for the assignment operators are evaluated from Left to Right',checkAnswer: true),
+    Question(textQuestion:'Variable name can begin with a letter, "\$", or "_".',checkAnswer: true),
+    Question(textQuestion:'Interfaces can be instantiated.',checkAnswer: false),
+    Question(textQuestion:'The modifiers public and static cannot written in either order "public static" or "static public".',checkAnswer: false),
+    Question(textQuestion:'James Gosling is father of Java?',checkAnswer: true)
   ];
   void updateIndex(){
     if(index<questionDisplay.length-1){
