@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 class SignUp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       body: Container(
         width: 414.0,

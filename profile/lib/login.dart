@@ -5,7 +5,6 @@ import 'package:url_launcher/url_launcher.dart';
 class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       body: Container(
         width: 414.0,
